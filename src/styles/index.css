@@ -9,3 +9,16 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.nav-item{
+    font-size: 20px;
+}
+
+.card{
+    width: 18rem;
+}
+
+.footer{
+    height: 5rem;
+    color: white;
+    text-align: center;
+}
