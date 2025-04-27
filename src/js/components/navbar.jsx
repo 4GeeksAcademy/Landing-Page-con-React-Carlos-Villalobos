@@ -2,26 +2,29 @@ import React from "react";
 
 const Navbar = () => {
     return (
-        <div >
-            <nav className="row navbar navbar-expand-lg navbar-dark bg-dark">
-                <a className="col-7 navbar-brand mx-2" href="#">Start Bootstrap</a>
-
-                <div className="col-5 collapse navbar-collapse " id="navbarSupportedContent">
-                    <ul className="navbar-nav mr-auto text-right">
-                        <li className="nav-item active">
-                            <a className="nav-link" href="#">Home</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">About</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Service</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
-                    
+        <div>
+            <nav className="navbar navbar-expand-lg bg-dark">
+                <div className="container-fluid">
+                    <a className="navbar-brand text-white" href="#">StartBootstrap</a>
+                    <button className="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+                        <ul className="navbar-nav mb-2 mb-lg-0">
+                            <li className="nav-item">
+                                <a className="nav-link text-white active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link text-white" href="#">About</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link text-white" href="#">Service</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link text-white" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </div>
